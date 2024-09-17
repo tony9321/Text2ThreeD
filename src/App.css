@@ -1,3 +1,10 @@
+html, body, #root, .App {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -28,4 +35,24 @@
 
 .small {
   font-size: 0.75rem;
+}
+
+.canvas-container {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: auto;
+}
+
+.output-container 
+{
+  width: 90%;
+  max-width: 100%;
+  margin: 0 auto;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  background-color: #4635cb;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
 }
