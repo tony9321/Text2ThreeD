@@ -4,7 +4,7 @@ import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 import './App.css';
 
-const API_KEY = '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';
+const API_KEY = '';
 
 const groq = new Groq({ apiKey: API_KEY, dangerouslyAllowBrowser: true });
 
